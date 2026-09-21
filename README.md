@@ -114,19 +114,19 @@ No real production credentials or confidential business data should be included 
 ## Screenshots
 
 ### Dashboard Produksi
-![Dashboard Produksi](screenshots/dashboard-production.jpg)
+![Dashboard Produksi](dashboard-production.jpg)
 
 ### Stok Gudang
-![Stok Gudang](screenshots/stock-gudang.jpg)
+![Stok Gudang](stock-gudang.jpg)
 
 ### Navigasi Gudang & Material
-![Navigasi Gudang & Material](screenshots/sidebar-gudang-material.jpg)
+![Navigasi Gudang & Material](sidebar-gudang-material.jpg)
 
 ### Navigasi Modul Produksi
-![Navigasi Modul Produksi](screenshots/sidebar-produksi.jpg)
+![Navigasi Modul Produksi](sidebar-produksi.jpg)
 
 ### Surat Perintah Kerja (SPK)
-![Surat Perintah Kerja](screenshots/spk.jpg)
+![Surat Perintah Kerja](spk.jpg)
 ## Repository Structure
 
 The portfolio repository can be organized like this:

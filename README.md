@@ -1,65 +1,106 @@
-# SMPT ERP — Production & Inventory Management System
+SMPT ERP — Production & Inventory Management System
 
 A custom ERP-style web application for managing production, inventory, work orders, operational workflows, payroll support, and reporting in one integrated system.
 
-> **Portfolio Demo**  
-> This repository is intended for portfolio purposes. The demo version should use dummy data only and must not contain real company data, credentials, spreadsheet IDs, API keys, payroll records, supplier data, or other confidential information.
+Portfolio Demo
+This repository is intended for portfolio purposes. The demo version should use dummy data only and must not contain real company data, credentials, spreadsheet IDs, API keys, payroll records, supplier data, or other confidential information.
 
-## Overview
+Overview
 
 SMPT was developed to help centralize operational processes that were previously spread across manual notes and separate records. The system connects project planning, material requirements, warehouse transactions, production activities, quality control, finished goods, payroll-related processes, and reporting into a single workflow.
 
 The main goals are to make data entry more disciplined, reduce duplicate/manual records, improve material and production monitoring, speed up reporting, and help control production overruns.
 
-## Main Features
+Main Features
 
-- User authentication, session handling, role-based access, and permissions
-- Master data management for materials, workers, vendors, locations, products, sets, and finished goods
-- Project and production planning
-- Material requirement planning and material monitoring
-- Purchase Order and incoming-goods workflow
-- Warehouse stock, goods-in, goods-out, stock logs, and material allocation
-- SPK / work-order management and assignment
-- Production workflow including Cutting, Sablon, production result entry, and operator/checker processes
-- Quality Control, reject/rework handling, and finished-goods flow
-- Packing, SET, transfer, and shipment/embarkation processes
-- Attendance, payroll support, cash advance, and operational finance modules
-- Operational history, monitoring, and reporting
-- Excel export for operational reporting
-- Notifications and workflow status tracking
-- Performance optimization for frequently accessed modules and history views
+User authentication, session handling, role-based access, and permissions
 
-## Technology Stack
+Master data management for materials, workers, vendors, locations, products, sets, and finished goods
 
-| Layer | Technology |
-|---|---|
-| Backend | Google Apps Script / JavaScript |
-| Frontend | HTML5, CSS, JavaScript |
-| UI | Bootstrap |
-| Data Storage | Google Sheets |
-| Platform | Google Apps Script Web App |
-| Reporting | Google Sheets + Excel export |
+Project and production planning
 
-## My Role
+Material requirement planning and material monitoring
 
-**Developer • System Designer • Automation • Admin Operations**
+Purchase Order and incoming-goods workflow
+
+Warehouse stock, goods-in, goods-out, stock logs, and material allocation
+
+SPK / work-order management and assignment
+
+Production workflow including Cutting, Sablon, production result entry, and operator/checker processes
+
+Quality Control, reject/rework handling, and finished-goods flow
+
+Packing, SET, transfer, and shipment/embarkation processes
+
+Attendance, payroll support, cash advance, and operational finance modules
+
+Operational history, monitoring, and reporting
+
+Excel export for operational reporting
+
+Notifications and workflow status tracking
+
+Performance optimization for frequently accessed modules and history views
+
+Technology Stack
+
+Layer
+
+Technology
+
+Backend
+
+Google Apps Script / JavaScript
+
+Frontend
+
+HTML5, CSS, JavaScript
+
+UI
+
+Bootstrap
+
+Data Storage
+
+Google Sheets
+
+Platform
+
+Google Apps Script Web App
+
+Reporting
+
+Google Sheets + Excel export
+
+My Role
+
+Developer • System Designer • Automation • Admin Operations
 
 My responsibilities in this project include:
 
-- Translating real operational workflows into system modules
-- Designing the application flow and data structure
-- Building and improving Google Apps Script backend functions
-- Developing frontend workflows with HTML, JavaScript, and Bootstrap
-- Implementing authentication, session, role, and permission controls
-- Building production, inventory, SPK, reporting, and operational modules
-- Automating repetitive administrative processes
-- Troubleshooting bugs and improving application performance
-- Improving data-entry discipline and reducing fragmented manual records
-- Iteratively improving the system based on day-to-day operational needs
+Translating real operational workflows into system modules
 
-## Simplified Workflow
+Designing the application flow and data structure
 
-```text
+Building and improving Google Apps Script backend functions
+
+Developing frontend workflows with HTML, JavaScript, and Bootstrap
+
+Implementing authentication, session, role, and permission controls
+
+Building production, inventory, SPK, reporting, and operational modules
+
+Automating repetitive administrative processes
+
+Troubleshooting bugs and improving application performance
+
+Improving data-entry discipline and reducing fragmented manual records
+
+Iteratively improving the system based on day-to-day operational needs
+
+Simplified Workflow
+
 Project / Production Plan
           ↓
 Material Requirements
@@ -77,61 +118,60 @@ Quality Control
 Finished Goods / Packing
           ↓
 Reporting & Monitoring
-```
 
-## Business Problems Addressed
+Business Problems Addressed
 
 The project was created to help address operational issues such as:
 
-- Too many separate/manual notes
-- Inconsistent production data entry
-- Difficulty monitoring material requirements and usage
-- Slow preparation of operational reports
-- Limited visibility into production progress
-- Risk of excessive material usage or production overruns
-- Difficulty tracing operational history across multiple processes
+Too many separate/manual notes
 
-## Portfolio Demo
+Inconsistent production data entry
+
+Difficulty monitoring material requirements and usage
+
+Slow preparation of operational reports
+
+Limited visibility into production progress
+
+Risk of excessive material usage or production overruns
+
+Difficulty tracing operational history across multiple processes
+
+Portfolio Demo
 
 The public portfolio version should be separated from the production system.
 
-**Live Demo:** `ADD_DEMO_URL_HERE
-
-> **Portfolio note:** gunakan data dummy pada demo publik. Hindari menampilkan data rahasia perusahaan,
-> kredensial, data gaji, supplier, stok sensitif, atau informasi internal lainnya.`
+Live Demo: Open SMPT ERP Demo
 
 Recommended demo data:
 
-- Dummy users and roles
-- Dummy projects and products
-- Dummy materials and stock transactions
-- Dummy SPK / work orders
-- Dummy production and QC records
-- Dummy reports
+Dummy users and roles
+
+Dummy projects and products
+
+Dummy materials and stock transactions
+
+Dummy SPK / work orders
+
+Dummy production and QC records
+
+Dummy reports
 
 No real production credentials or confidential business data should be included in this repository.
 
-## Screenshots
+Screenshots
 
-### Dashboard Produksi
-![Dashboard Produksi](dashboard-production.jpg)
+Add screenshots to a screenshots/ folder and display them here, for example:
 
-### Stok Gudang
-![Stok Gudang](stock-gudang.jpg)
+![Dashboard](screenshots/dashboard.png)
+![Inventory](screenshots/inventory.png)
+![Production](screenshots/production.png)
+![SPK](screenshots/spk.png)
 
-### Navigasi Gudang & Material
-![Navigasi Gudang & Material](sidebar-gudang-material.jpg)
-
-### Navigasi Modul Produksi
-![Navigasi Modul Produksi](sidebar-produksi.jpg)
-
-### Surat Perintah Kerja (SPK)
-![Surat Perintah Kerja](spk.jpg)
-## Repository Structure
+Repository Structure
 
 The portfolio repository can be organized like this:
 
-```text
 smpt-erp-portfolio/
 ├── README.md
 ├── screenshots/
@@ -140,18 +180,16 @@ smpt-erp-portfolio/
 │   └── architecture.md
 └── demo-source/
     └── sanitized source code only
-```
 
-## Developer
+Developer
 
-**Dandi Mardani**  
+Dandi Mardani
 Admin ERP / System • Google Apps Script • Operations Automation
 
-- GitHub: https://github.com/DandiMardani
-- LinkedIn: https://www.linkedin.com/in/dandi-mardani-90749536b
+GitHub: https://github.com/DandiMardani
 
----
+LinkedIn: https://www.linkedin.com/in/dandi-mardani-90749536b
 
-### Note
+Note
 
 This portfolio focuses on the system design, workflow, automation, and technical implementation of SMPT. Any public demo or source-code version should be sanitized before publication to protect confidential company information.

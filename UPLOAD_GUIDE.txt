@@ -1,0 +1,12 @@
+SMPT GitHub Portfolio - Upload Guide
+
+1. Upload README.md ke root repository.
+2. Buat folder bernama screenshots.
+3. Upload semua file JPG di folder screenshots ini.
+4. Pastikan nama file tidak berubah.
+5. Setelah commit, refresh halaman repository.
+6. Semua gambar pada README akan tampil otomatis.
+
+Catatan:
+- Jangan upload source produksi asli yang berisi kredensial atau data internal.
+- Untuk demo publik, gunakan data dummy/sanitized.

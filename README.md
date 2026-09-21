@@ -3,7 +3,14 @@ SMPT ERP — Production & Inventory Management System
 A custom ERP-style web application for managing production, inventory, work orders, operational workflows, payroll support, and reporting in one integrated system.
 
 Portfolio Demo
-This repository is intended for portfolio purposes. The demo version should use dummy data only and must not contain real company data, credentials, spreadsheet IDs, API keys, payroll records, supplier data, or other confidential information.
+This repository is intended for portfolio purposes. The public demo uses a separate demo environment and should not contain confidential company data, production credentials, private spreadsheet IDs, API keys, payroll records, supplier data, or other sensitive information.
+
+Live Demo
+
+Open SMPT ERP Demo
+## Portfolio Demo
+
+**Live Demo:** [Open SMPT ERP Demo](https://script.google.com/macros/s/AKfycbxnZIBXgR9bIVUiYHpKFcSK1MVdoXk4kKnCKuPBbHXcE6jyX0K6XDR70oYbC8bcoRL0ow/exec)
 
 Overview
 
@@ -139,9 +146,9 @@ Difficulty tracing operational history across multiple processes
 
 Portfolio Demo
 
-The public portfolio version should be separated from the production system.
-
 Live Demo: Open SMPT ERP Demo
+
+The public demo is separated from the production system and is intended only for portfolio review.
 
 Recommended demo data:
 
@@ -156,8 +163,6 @@ Dummy SPK / work orders
 Dummy production and QC records
 
 Dummy reports
-
-No real production credentials or confidential business data should be included in this repository.
 
 Screenshots
 
@@ -204,4 +209,4 @@ LinkedIn: https://www.linkedin.com/in/dandi-mardani-90749536b
 
 Note
 
-This portfolio focuses on the system design, workflow, automation, and technical implementation of SMPT. Any public demo or source-code version should be sanitized before publication to protect confidential company information.
+This portfolio focuses on the system design, workflow, automation, and technical implementation of SMPT. The public demo/source version should remain sanitized to protect confidential company information.

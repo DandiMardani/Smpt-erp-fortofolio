@@ -5,9 +5,6 @@ A custom ERP-style web application for managing production, inventory, work orde
 Portfolio Demo
 This repository is intended for portfolio purposes. The public demo uses a separate demo environment and should not contain confidential company data, production credentials, private spreadsheet IDs, API keys, payroll records, supplier data, or other sensitive information.
 
-Live Demo
-
-Open SMPT ERP Demo
 ## Portfolio Demo
 
 **Live Demo:** [Open SMPT ERP Demo](https://script.google.com/macros/s/AKfycbxnZIBXgR9bIVUiYHpKFcSK1MVdoXk4kKnCKuPBbHXcE6jyX0K6XDR70oYbC8bcoRL0ow/exec)

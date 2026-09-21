@@ -161,23 +161,35 @@ No real production credentials or confidential business data should be included 
 
 Screenshots
 
-Add screenshots to a screenshots/ folder and display them here, for example:
+Dashboard Produksi
 
-![Dashboard](screenshots/dashboard.png)
-![Inventory](screenshots/inventory.png)
-![Production](screenshots/production.png)
-![SPK](screenshots/spk.png)
+
+
+Stok Gudang
+
+
+
+Navigasi Gudang & Material
+
+
+
+Navigasi Modul Produksi
+
+
+
+Surat Perintah Kerja (SPK)
+
+
 
 Repository Structure
 
-The portfolio repository can be organized like this:
-
-smpt-erp-portfolio/
+Smpt-erp-fortofolio/
 ├── README.md
-├── screenshots/
-├── docs/
-│   ├── workflow.md
-│   └── architecture.md
+├── dashboard-production.jpg
+├── stock-gudang.jpg
+├── sidebar-gudang-material.jpg
+├── sidebar-produksi.jpg
+├── spk.jpg
 └── demo-source/
     └── sanitized source code only
 
